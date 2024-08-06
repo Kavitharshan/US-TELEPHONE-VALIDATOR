@@ -4,11 +4,7 @@
 
 body{
     background-image: url("blueback.jpg");
-    background-size: cover; /* Ensure the image covers the entire body */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent repeating */
-  background-attachment: fixed; /* Optional: Fix background image during scroll */
-  min-height: 100vh; 
+    background-size: cover; 
 }
 
 h1{
@@ -101,7 +97,7 @@ label{
 
 @media only screen and (max-width: 1500px) {
 
-    }
+    
     #casingdiv {
         height: 500px;
         width: 240px;
@@ -113,4 +109,4 @@ label{
         width: 225px;
         margin-top: 22px;
     }
-
+}
